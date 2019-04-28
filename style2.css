@@ -1,0 +1,113 @@
+body {
+	background: khaki;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	border: 3px white gradient;
+	color: black;
+	font-family: Mistral;
+	list-style: none;
+	padding: 10px;
+	font-size: 25px;
+	background-color: white;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 0;
+	margin: 5px;
+	text-align: center;
+	background: white;
+	border: 3px brown solid;
+}
+
+.snacks {
+	height: 100vh;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat (4,1fr);
+	grid-template-rows: repeat (3,1fr);
+}
+
+.s1 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background-image: url(../images/d1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.s1:hover {
+	background: url(../images/d2.jpg);
+	background-size: 100% 100%;
+}
+
+.s2 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	background-image: url(../images/sfc1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.s2:hover {
+	background: url(../images/sfc2.jpg);
+	background-size: 100% 100%;
+}
+
+.s3 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	background-image: url(../images/s1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.s3:hover {
+	background: url(../images/s2.jpg);
+	background-size: 100% 100%;
+}
+
+.s4 {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	background-image: url(../images/m1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.s4:hover {
+	background: url(../images/m2.jpg);
+	background-size: 100% 100%;
+}
+
+.s5 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background-image: url(../images/mc1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.s5:hover {
+	background: url(../images/mc2.jpg);
+	background-size: 100% 100%;
+}
+
+.s6 {
+	grid-column: 3/4;
+	grid-row: 2/3;
+	background-image: url(../images/l1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.s6:hover {
+	background: url(../images/l2.jpg);
+	background-size: 100% 100%;
+}

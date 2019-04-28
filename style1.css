@@ -1,0 +1,123 @@
+body {
+	background: khaki;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	border: 3px white gradient;
+	color: black;
+	font-family: Mistral;
+	list-style: none;
+	padding: 10px;
+	font-size: 25px;
+	background-color: white;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 0;
+	margin: 5px;
+	text-align: center;
+	background: white;
+	border: 3px brown solid;
+}
+
+.image {
+	position: relative;
+	border: 3px brown solid;
+	height: 30vh;
+	width: 50vw;
+	margin: 10px auto;
+	overflow: hidden;
+	background-color: white;
+}
+
+.crafts {
+	height: 100vh;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat (4,1fr);
+	grid-template-rows: repeat (3,1fr);
+}
+
+.c1 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background-image: url(../images/wb1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.c1:hover {
+	background: url(../images/wb2.jpg);
+	background-size: 100% 100%;
+}
+
+.c2 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	background-image: url(../images/bp1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.c2:hover {
+	background: url(../images/bp2.jpg);
+	background-size: 100% 100%;
+}
+
+.c3 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+    background-image: url(../images/c1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.c3:hover {
+	background: url(../images/c2.jpg);
+	background-size: 100% 100%;
+}
+
+.c4 {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	background-image: url(../images/wc1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.c4:hover {
+	background: url(../images/wc2.jpg);
+	background-size: 100% 100%;
+}
+
+.c5 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background-image: url(../images/cp1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.c5:hover {
+	background: url(../images/cp2.jpg);
+	background-size: 100% 100%;
+}
+
+.c6 {
+	grid-column: 3/4;
+	grid-row: 2/3;
+	background-image: url(../images/pb1.jpg);
+	background-size: 100% 100%;
+	border: 3px brown solid;
+}
+
+.c6:hover {
+	background: url(../images/pb2.jpg);
+	background-size: 100% 100%;
+}
